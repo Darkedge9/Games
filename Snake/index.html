@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div id="replay">
+                <i class="fas fa-play"></i>
+            </div>
+            <div id="ui">
+                <span id="dom_score">00</span>
+            </div>
+            <canvas id="canvas"></canvas>
+            <button id="dom_replay">Replay</button>
+        </div>
+    </div>
+    <div id="author">
+        Hello,<br><br>
+        I hope you're having a great time playing the game! 🤗 <br><br>
+        For more games like this, please check out the following links: <br><br>
+        🔸avoidthered.netlify.app <br>
+        🔸bhartiyasaanp.netlify.app<br>
+        🔸awdgames.netlify.app<br>
+        <br><br>
+        For interactive website:
+        <br><br>
+        🔸greyshield.netlify.app <br>
+        🔸shubhcontactus.netlify.app<br>
+        <!-- <img src="s.png" alt="Shubham" srcset=""> -->
+        
+    </div>
+    <audio id="eatSound" autoplay="false">
+        <source src="eat.mp3" type="audio/mpeg">
+        
+    </audio>
+    <audio id="GameOver" autoplay="false">
+        <source src="gameover.mp3" type="audio/mpeg">
+        
+    </audio>
+    
+       
+
+    <script src="script.js"></script>
+</body>
+
+</html>
